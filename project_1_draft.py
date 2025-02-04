@@ -10,7 +10,7 @@ import json
 import matplotlib.pyplot as plt
 
 # Set up SerpAPI Key
-SERPAPI_KEY = "24ca43f4021da3e0df2481a817f2cc1d049aa5622d65c0fc0ff5fd5b98676381"
+SERPAPI_KEY = ""
 
 
 # Step 1: Fetch News via SerpAPI
