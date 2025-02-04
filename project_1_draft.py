@@ -9,13 +9,12 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import json
 import matplotlib.pyplot as plt
 
-# Set up SerpAPI Key
+# Set up SerpAPI key to get the news from google
 SERPAPI_KEY = ""
 
+# get the news
+def fetch_google_news(query="Deepseek AI", num_results=100, start_date="01/01/2025", end_date="02/03/2025"):
 
-# Step 1: Fetch News via SerpAPI
-def fetch_google_news(query="Deepseek AI", num_results=200, start_date="01/01/2025", end_date="02/03/2025"):
-    """Fetches news articles using SerpApi (Google News API)."""
     params = {
         "q": query,
         "api_key": SERPAPI_KEY,
@@ -29,6 +28,7 @@ def fetch_google_news(query="Deepseek AI", num_results=200, start_date="01/01/20
         response.raise_for_status()
         results = response.json()
         articles = []
+
         if "news_results" in results:
             for news in results["news_results"]:
                 articles.append({
@@ -43,131 +43,161 @@ def fetch_google_news(query="Deepseek AI", num_results=200, start_date="01/01/20
         news_df = pd.DataFrame(articles)
 
         # Save JSON & CSV
+        news_df.to_csv("deepseek_news.csv", index=False)
         with open("news_data.json", "w", encoding="utf-8") as json_file:
             json.dump(results, json_file, indent=4)
-        if not news_df.empty:
-            news_df.to_csv("deepseek_news.csv", index=False)
-            print("News data saved to deepseek_news.csv and news_data.json")
-            return news_df, start_date, end_date  # Return DataFrame & Date Range
-        else:
-            print("⚠ No news articles found.")
-            return None, start_date, end_date
+
+        print(f" News data saved ({len(news_df)} articles).")
+        return news_df if not news_df.empty else None
 
     except requests.exceptions.RequestException as e:
         print(f" Error: Failed to fetch news - {e}")
-        return None, start_date, end_date
+        return None
 
 
-# Step 2: Convert Relative Dates to Actua
-def convert_relative_date(date_str): # Converts relative date strings like '1 week ago' to actual dates
+# Convert relative dates to actual dates
+def convert_relative_date(date_str):
     if isinstance(date_str, str):
         match = re.search(r"(\d+)\s+(day|week|month|hour|minute|second)", date_str)
         if match:
             value, unit = int(match.group(1)), match.group(2)
-            if "day" in unit:
-                return datetime.datetime.today() - datetime.timedelta(days=value)
-            elif "week" in unit:
-                return datetime.datetime.today() - datetime.timedelta(weeks=value)
-            elif "month" in unit:
-                return datetime.datetime.today() - datetime.timedelta(days=value * 30)
-            elif "hour" in unit:
-                return datetime.datetime.today() - datetime.timedelta(hours=value)
-            elif "minute" in unit:
-                return datetime.datetime.today() - datetime.timedelta(minutes=value)
-            elif "second" in unit:
-                return datetime.datetime.today() - datetime.timedelta(seconds=value)
-        else:
-            try:
-                return parser.parse(date_str)
-            except Exception:
-                return None
+            delta = {
+                "day": datetime.timedelta(days=value),
+                "week": datetime.timedelta(weeks=value),
+                "month": datetime.timedelta(days=value * 30),
+                "hour": datetime.timedelta(hours=value),
+                "minute": datetime.timedelta(minutes=value),
+                "second": datetime.timedelta(seconds=value),
+            }
+            return datetime.datetime.today() - delta.get(unit, datetime.timedelta(days=0))
+        try:
+            return parser.parse(date_str)
+        except ValueError:
+            return None
     return date_str
 
 
-# Step 3: Apply Sentiment Analysis
+# Sentiment Analysis Function
 def analyze_sentiment(text):
-    """Analyzes sentiment using VADER sentiment analysis."""
     analyzer = SentimentIntensityAnalyzer()
     vs = analyzer.polarity_scores(str(text))
-    if vs['compound'] >= 0.05:
-        return "Positive"
-    elif vs['compound'] <= -0.05:
-        return "Negative"
-    else:
-        return "Neutral"
+    return "Positive" if vs['compound'] >= 0.05 else "Negative" if vs['compound'] <= -0.05 else "Neutral"
 
 
-# Step 4: Fetch Stock Data via Yahoo Finance API
-def fetch_stock_data(tickers=["GOOGL", "MSFT", "NVDA", "META"], start_date="2025-01-01"):
-    """Fetches stock data for AI-related companies using Yahoo Finance API."""
+# Get the stock data
+def fetch_stock_data(tickers=["GOOGL", "MSFT", "NVDA", "META"], start_date="2023-01-01"):
     end_date = datetime.datetime.today().strftime('%Y-%m-%d')
-
     stock_data = {}
+
     for ticker in tickers:
         try:
             stock_df = yf.download(ticker, start=start_date, end=end_date)
-            stock_df.reset_index(inplace=True)
-            stock_df.to_csv(f"{ticker}_stock_data.csv", index=False)
-            stock_data[ticker] = stock_df
+            if not stock_df.empty:
+                stock_df.reset_index(inplace=True)
+                stock_df.to_csv(f"{ticker}_stock_data.csv", index=False)
+                stock_data[ticker] = stock_df
+                print(f" Stock data saved: {ticker} ({len(stock_df)} records).")
         except Exception as e:
             print(f" Error fetching stock data for {ticker}: {e}")
 
-    print("\n Stock data fetching completed. CSV files saved.")
     return stock_data
 
 
-# **Execution: Fetch News & Process Sentiment**
-news_df, start_date, end_date = fetch_google_news(start_date="01/01/2025", end_date="02/03/2025")
+# Execution:
+news_df = fetch_google_news()
 
 if news_df is not None:
-    # Convert relative dates
     news_df["published_date"] = news_df["published_date"].apply(convert_relative_date)
-    news_df["published_date"] = pd.to_datetime(news_df["published_date"], errors='coerce')
+    news_df["published_date"] = pd.to_datetime(news_df["published_date"], errors="coerce")
     news_df.dropna(subset=["published_date"], inplace=True)
 
-    # Apply sentiment analysis before saving
+    # Do the  sentiment analysis
     news_df["sentiment"] = news_df["title"].apply(analyze_sentiment)
     news_df.to_csv("deepseek_news_with_sentiment.csv", index=False)
-    print(" Sentiment analysis completed and saved to deepseek_news_with_sentiment.csv")
+    print("Sentiment analysis completed and saved.")
 
-# Fetch Stock Data
+# Get the stock data
 stock_data = fetch_stock_data()
 
 
-# **Step 5: Generate Weekly Sentiment Pie Charts**
-file_path = "deepseek_news_with_sentiment.csv"
-df = pd.read_csv(file_path)
+# make sentiment Pie Charts by week
+def generate_sentiment_charts(file_path="deepseek_news_with_sentiment.csv"):
+    df = pd.read_csv(file_path)
+     # Convert date columns
+    df["published_date"] = pd.to_datetime(df["published_date"], errors="coerce")
+    df.dropna(subset=["published_date"], inplace=True)
 
-# Convert published_date to datetime format
-df["published_date"] = pd.to_datetime(df["published_date"], errors="coerce")
-df.dropna(subset=["published_date"], inplace=True)
+    # get year and week number
+    df["year_week"] = df["published_date"].dt.strftime("%Y-W%U")
 
-# Convert string start/end dates to datetime
-start_date = pd.to_datetime(start_date)
-end_date = pd.to_datetime(end_date)
+    # Group by week and count sentiment count
+    weekly_sentiment = df.groupby(["year_week", "sentiment"]).size().unstack(fill_value=0)
 
-# Filter data within the specified range
-df = df[(df["published_date"] >= start_date) & (df["published_date"] <= end_date)]
+    # Create output directory
+    output_dir = "weekly_sentiment_charts"
+    os.makedirs(output_dir, exist_ok=True)
 
-# Extract year and week number
-df["year_week"] = df["published_date"].dt.strftime("%Y-W%U")
+    # make pie charts
+    for week, data in weekly_sentiment.iterrows():
+        plt.figure(figsize=(6, 6))
+        data.plot.pie(autopct='%1.1f%%', startangle=140, cmap="coolwarm", legend=False)
+        plt.title(f"Sentiment Distribution for Week {week}")
+        plt.ylabel("")
+        plt.savefig(f"{output_dir}/sentiment_week_{week}.png")
+        plt.close()
+        print(f" Pie chart created for {week}")
 
-# Group by week and count sentiment occurrences
-weekly_sentiment = df.groupby(["year_week", "sentiment"]).size().unstack(fill_value=0)
-
-# Create output directory for pie charts
-output_dir = "weekly_sentiment_charts"
-os.makedirs(output_dir, exist_ok=True)
-
-# Generate and save a pie chart for each week
-for week, data in weekly_sentiment.iterrows():
-    plt.figure(figsize=(6, 6))
-    data.plot.pie(autopct='%1.1f%%', startangle=140, cmap="coolwarm", legend=False)
-    plt.title(f"Sentiment Distribution for Week {week}")
-    plt.ylabel("")
-    plt.savefig(f"{output_dir}/sentiment_week_{week}.png")
-    plt.close()
-    print(f" Pie chart created for {week} (Data: {data.to_dict()})")
-print("\n All weekly sentiment charts have been generated and saved!")
+    print("\nAll weekly sentiment charts have been generated and saved!")
 
 
+# Run Sentiment Chart
+generate_sentiment_charts()
+
+
+# Resaserch question # 1. AI stock vs. Nasdaq Composite Index
+tickers = {
+    "GOOGL": "Google",
+    "MSFT": "Microsoft",
+    "NVDA": "NVIDIA",
+    "META": "Meta",
+     "IBM": "IBM",
+      "AAPL":"Apple",
+       "T": "AT&T",
+    "^IXIC": "Nasdaq Composite"  # Nasdaq Composite Index
+}
+
+# Define the date range (past two years)
+end_date = datetime.datetime.now()
+start_date = end_date - datetime.timedelta(days=2*365)
+
+
+# Get stock data
+stock_data = {}
+for ticker, name in tickers.items():
+    try:
+        data = yf.download(ticker, start=start_date, end=end_date)
+        if not data.empty:
+            # Use 'Adj Close' if available, otherwise use 'Close'
+            stock_data[ticker] = data["Adj Close"] if "Adj Close" in data else data["Close"]
+            print(f" Fetched data for {name} ({ticker})")
+        else:
+            print(f" No data found for {name} ({ticker})")
+    except Exception as e:
+        print(f" Error fetching data for {name} ({ticker}): {e}")
+
+# Normalize stock
+normalized_data = {}
+for ticker, prices in stock_data.items():
+    normalized_data[ticker] = (prices / prices.iloc[0]) * 100  # Normalize to starting price
+
+# Plot the data
+plt.figure(figsize=(12, 6))
+for ticker, prices in normalized_data.items():
+    plt.plot(prices, label=tickers[ticker])
+
+plt.title("Stock Price Performance of AI Tech Companies vs Nasdaq Composite (Past 2 Years)")
+plt.xlabel("Date")
+plt.ylabel("Normalized Price (Starting Price = 100)")
+plt.legend(loc="upper left")
+plt.grid(True)
+plt.show()
