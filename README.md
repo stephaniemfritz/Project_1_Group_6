@@ -4,11 +4,11 @@ This project investigates Deepseek's influence within the AI market by examining
 
 ## Team Members
 
+* Alex Ivanoff 
 * Brynn Butler
+* Noah Schmidt
 * Pojanart Foote
 * Stephenie Fritz
-* Alex Ivanoff
-* Noah Schmidt
 
 ## Deepseek Background
 Deepseek is a Chinese artificial intelligence company specializing in large language models (LLMs) and other advanced AI technologies.  They have gained recognition for their development of DeepSeek Chat, a competitive LLM, and are actively involved in research and development within the rapidly evolving AI landscape.  Deepseek's emergence as a significant player in the AI field has the potential to reshape market dynamics and influence the competitive landscape, making it a subject of interest for investors and the public alike.
