@@ -132,22 +132,10 @@ This research has several limitations. The 30-day timeframe for stock price and 
 With additional time, several avenues of research could enhance this analysis.  Expanding the timeframe for stock price and sentiment analysis, particularly extending the analysis further beyond the Deepseek announcement,  would provide a more comprehensive view of long-term trends.  Incorporating social media sentiment (e.g., from Twitter) could offer a more nuanced understanding of public perception.  A deeper dive into the specific news content driving sentiment changes, through topic modeling or thematic analysis, would provide valuable insights into the factors shaping public opinion about Deepseek.  Furthermore, exploring the competitive landscape and comparing Deepseek's performance and public perception to its direct competitors could provide a more contextualized assessment of its influence within the AI market.  Finally, a more rigorous statistical analysis, potentially including regression modeling, could help quantify the relationship between Deepseek's activities and market reactions, moving beyond observed correlations towards a more robust understanding of causality.
 
 ### References
-Google. (n.d.). *Google Search*. Retrieved from https://www.google.com/
-
-Hutto, C.J., & Gilbert, E. (2014). VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. *Proceedings of the 8th International Conference on Language Resources and Evaluation (LREC 2014)*, 2167–2171.
-
-Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. *Computing in Science & Engineering*, *9*(3), 90–95.
-
-McKinney, W. (2010). Data structures for statistical computing in Python. *Proceedings of the 9th Python in Science Conference*, 1–9.
-
-Rajaraman, V. (2020). *yfinance: A Python package for downloading market data from Yahoo Finance* [Computer software]. Retrieved from https://github.com/ranaroussi/yfinance
-
-Seabold, S., & Perktold, J. (2010). *statsmodels: Econometric and statistical modeling with python*. Proceedings of the 9th Python in Science Conference.
-
-SerpAPI. (n.d.). *Google News Search API*. Retrieved from [SerpAPI URL -  e.g., https://serpapi.com/google-news-api]
-
-Waskom, M. L., Bornell, N., Dotson, K., & Halchenko, Y. O. (2014). Statistical computing in python: `seaborn`. *Wiley Interdisciplinary Reviews: Computational Statistics*, *6*(2), 192–199.
-
-Yahoo Finance. (n.d.). *Historical Stock Data*. Retrieved from [Yahoo Finance URL - e.g., https://finance.yahoo.com/]
-
-How to write a good README for your GitHub project? [https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project]
+* Google. (n.d.). *Google Search*. Retrieved from https://www.google.com/
+* Google. (n.d.). *Google Search*. Retrieved from https://www.google.com/
+* Statsmodels: https://www.statsmodels.org/stable/api.html
+* SerpAPI. (n.d.). *Google News Search API*. Retrieved from [SerpAPI URL -  e.g., https://serpapi.com/google-news-api]
+* Yahoo Finance. (n.d.). *Historical Stock Data*. Retrieved from [Yahoo Finance URL - e.g., https://finance.yahoo.com/]
+* How to Use yfinance API with Python : https://www.geeksforgeeks.org/how-to-use-yfinance-api-with-python/
+* How to write a good README for your GitHub project? [https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project]
