@@ -106,7 +106,11 @@ The observed variations in short-term performance underscore the dynamic nature 
 This analysis examines the evolution of news sentiment surrounding Deepseek over a three-week period in 2025 (W03, W04, W05).  Each news article was processed, and a compound sentiment score was generated using the Vader sentiment analyzer. Articles were classified as "positive," "negative," or "neutral" based on their compound sentiment scores.
 
 The distribution of sentiment across news articles for weeks 3, 4, and 5 of 2025 is shown below: 
-![sentiment_p_value](weekly_sentiment_charts/sentiment_p_value.png)
+| Week       | Negative | Neutral | Positive |
+|------------|----------| --------| ---------|
+| 2025 - W03 |       50 |      50 |       50 |
+| 2025 - W04 |      1300|    2000 |     1200 |
+| 2025 - W05 |       100|     150 |      100 |
 
 To assess whether the proportion of neutral articles varied significantly across these weeks, we performed a z-test for proportions. The results are as follows:
 * **Week 4 vs. Week 3:** The p-value for the difference in the proportion of neutral articles is 0.0035. This indicates a statistically significant difference, suggesting that the proportion of neutral articles was higher in week 4 compared to week 3.
@@ -114,10 +118,12 @@ To assess whether the proportion of neutral articles varied significantly across
 
 The significant increase in neutral articles in week 4 suggests a shift in media coverage, potentially reflecting broader or more nuanced reporting on Deepseek's activities. The lack of significant change between weeks 4 and 5 indicates that this shift in neutral coverage stabilized. 
 
-![sentiment pie chart ](weekly_sentiment_charts/sentiment_pie_chart.png)
-![sentiment over time ](weekly_sentiment_charts/sentiment_bar_chart.png)
-
 We also utilized a stacked bar chart and pie chart to visualize the distribution of negative, neutral, and positive sentiment.  The stacked bar chart reveals a significant shift in sentiment distribution across the three weeks.  Week 3 shows a relatively balanced distribution, with a roughly equal count of negative, neutral, and positive articles.  However, week 4 exhibits a dramatic increase in both negative and neutral articles, while positive articles remain relatively constant.  This suggests a potential shift in media coverage, possibly reflecting increased scrutiny or a broader range of perspectives on Deepseek's activities.  By week 5, while the absolute counts are lower, the proportion of neutral articles remains dominant, indicating a sustained trend towards more balanced or objective reporting.  The noticeable increase in neutral sentiment between weeks 3 and 4, and its continued dominance in week 5, warrants further investigation into the specific events or news topics driving this shift.  Correlating these sentiment changes with Deepseek's announcements, product launches, or industry developments during this period would provide valuable context and a deeper understanding of the factors shaping public perception.
+
+![W03 - pie chart](weekly_sentiment_charts/sentiment_week_2025-W03.png)
+![W04 - pie chart](weekly_sentiment_charts/sentiment_week_2025-W04.png)
+![W05 - pie chart](weekly_sentiment_charts/sentiment_week_2025-W05.png)
+![sentiment over time ](weekly_sentiment_charts/sentiment_bar_chart.png)
 
 ### Conclusion
 This research explored Deepseek's influence on the AI market by examining stock price performance, trading volume, and news sentiment over time.  Our analysis revealed several key findings.  
@@ -132,7 +138,6 @@ This research has several limitations. The 30-day timeframe for stock price and 
 With additional time, several avenues of research could enhance this analysis.  Expanding the timeframe for stock price and sentiment analysis, particularly extending the analysis further beyond the Deepseek announcement,  would provide a more comprehensive view of long-term trends.  Incorporating social media sentiment (e.g., from Twitter) could offer a more nuanced understanding of public perception.  A deeper dive into the specific news content driving sentiment changes, through topic modeling or thematic analysis, would provide valuable insights into the factors shaping public opinion about Deepseek.  Furthermore, exploring the competitive landscape and comparing Deepseek's performance and public perception to its direct competitors could provide a more contextualized assessment of its influence within the AI market.  Finally, a more rigorous statistical analysis, potentially including regression modeling, could help quantify the relationship between Deepseek's activities and market reactions, moving beyond observed correlations towards a more robust understanding of causality.
 
 ### References
-* Google. (n.d.). *Google Search*. Retrieved from https://www.google.com/
 * Google. (n.d.). *Google Search*. Retrieved from https://www.google.com/
 * Statsmodels: https://www.statsmodels.org/stable/api.html
 * SerpAPI. (n.d.). *Google News Search API*. Retrieved from [SerpAPI URL -  e.g., https://serpapi.com/google-news-api]
