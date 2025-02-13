@@ -1,0 +1,946 @@
+{
+    "search_metadata": {
+        "id": "67a56058b9e759bef5d5d379",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/20a321607e602ca0/67a56058b9e759bef5d5d379.json",
+        "created_at": "2025-02-07 01:22:32 UTC",
+        "processed_at": "2025-02-07 01:22:32 UTC",
+        "google_url": "https://www.google.com/search?q=Deepseek+AI&oq=Deepseek+AI&num=200&tbm=nws&tbs=cdr:1,cd_min:01/01/2025,cd_max:02/03/2025&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/20a321607e602ca0/67a56058b9e759bef5d5d379.html",
+        "total_time_taken": 0.67
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "Deepseek AI",
+        "google_domain": "google.com",
+        "num": "200",
+        "device": "desktop",
+        "tbm": "nws",
+        "tbs": "cdr:1,cd_min:01/01/2025,cd_max:02/03/2025"
+    },
+    "search_information": {
+        "query_displayed": "Deepseek AI",
+        "total_results": 19200000,
+        "time_taken_displayed": 0.35,
+        "news_results_state": "Results for exact spelling"
+    },
+    "news_results": [
+        {
+            "position": 1,
+            "link": "https://news.darden.virginia.edu/2025/01/29/qa-what-is-deepseek-the-bargain-ai-roiling-the-stock-market/",
+            "title": "Q&A: What Is DeepSeek, the Bargain AI Roiling the Stock Market?",
+            "source": "Darden Report Online",
+            "date": "1 week ago",
+            "snippet": "January 29, 2025 Just a week or so ago, a little-known Chinese technology company called DeepSeek quietly debuted an artificial intelligence app.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107f6358f300d33eb5e9c34f3a98ac60079d2ffcb9cbd07955d.jpeg"
+        },
+        {
+            "position": 2,
+            "link": "https://www.reuters.com/technology/artificial-intelligence/what-is-deepseek-why-is-it-disrupting-ai-sector-2025-01-27/",
+            "title": "What is DeepSeek and why is it disrupting the AI sector?",
+            "source": "Reuters",
+            "date": "1 week ago",
+            "snippet": "BEIJING, Jan 27 (Reuters) - Chinese startup DeepSeek's launch of its latest AI models, which it says are on a par or better than industry-leading models in...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10747da5451a9d32bcf98e0d71fd10bc234f8e897abe3d99d13.jpeg"
+        },
+        {
+            "position": 3,
+            "link": "https://www.psu.edu/news/research/story/qa-deepseek-ai-assistant-and-future-ai",
+            "title": "Q&A: DeepSeek AI assistant and the future of AI",
+            "source": "Penn State University",
+            "date": "6 days ago",
+            "snippet": "UNIVERSITY PARK, Pa. \u2014 News that artificial intelligence (AI) assistant DeepSeek can compete with models like ChatGPT and Gemini for a fraction of the cost...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107e3350bd86ae2454eac72720a57c6b9aa57d8055b668ae58f.jpeg"
+        },
+        {
+            "position": 4,
+            "link": "https://azure.microsoft.com/en-us/blog/deepseek-r1-is-now-available-on-azure-ai-foundry-and-github/",
+            "title": "DeepSeek R1 is now available on Azure AI Foundry and GitHub",
+            "source": "Microsoft Azure",
+            "date": "1 week ago",
+            "snippet": "DeepSeek R1, available through the model catalog on Microsoft Azure AI Foundry and GitHub, enables businesses to seamlessly integrate advanced AI.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10783672e9e0e7a549718e7ea2f42f908cd5c7da6fe632b9d18.jpeg"
+        },
+        {
+            "position": 5,
+            "link": "https://source.washu.edu/2025/02/washu-expert-how-deepseek-changes-the-ai-industry/",
+            "title": "WashU Expert: How DeepSeek changes the AI industry",
+            "source": "The Source | Washington University in St. Louis",
+            "date": "3 days ago",
+            "snippet": "DeepSeek AI surged in popularity in the past week after analysts showed that it was trained much more efficiently compared with models like Open AI ChatGPT...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1077ab0157b8d49f48968a5f8eff9ebe7cd5e9eca59a3160ac2.jpeg"
+        },
+        {
+            "position": 6,
+            "link": "https://www.cnn.com/2025/01/27/tech/deepseek-ai-explainer/index.html",
+            "title": "What is DeepSeek, the Chinese AI startup that shook the tech world?",
+            "source": "CNN",
+            "date": "1 week ago",
+            "snippet": "A surprisingly efficient and powerful Chinese AI model has taken the technology industry by storm. It's called DeepSeek R1, and it's rattling nerves on Wall...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1079e2a09634792fb32fa20dba1f7e2515ad74d10e100351865.jpeg"
+        },
+        {
+            "position": 7,
+            "link": "https://mashable.com/article/deepseek-ai-r1-how-to-try-iphone-desktop",
+            "title": "DeepSeek AI: How to try DeepSeek R1 right now",
+            "source": "Mashable",
+            "date": "1 week ago",
+            "snippet": "A new super-powered, open-source AI model called DeepSeek R1 is rattling the industry this week, after it was unexpectedly dropped into the laps of...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107f7db1ae0fa88e35ac6b02ec5bf53b3a8129ca8ab013c64d6.jpeg"
+        },
+        {
+            "position": 8,
+            "link": "https://apnews.com/article/deepseek-ai-china-f4908eaca221d601e31e7e3368778030",
+            "title": "What is DeepSeek, the Chinese AI company upending the stock market?",
+            "source": "AP News",
+            "date": "1 week ago",
+            "snippet": "A frenzy over an artificial intelligence chatbot made by Chinese tech startup DeepSeek was upending stock markets Monday and fueling debates over the...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107acf387777908544f12a9ef8e9d0e55722cd03221a9a49d9f.jpeg"
+        },
+        {
+            "position": 9,
+            "link": "https://www.scientificamerican.com/article/why-deepseeks-ai-model-just-became-the-top-rated-app-in-the-u-s/",
+            "title": "Why DeepSeek\u2019s AI Model Just Became the Top-Rated App in the U.S.",
+            "source": "Scientific American",
+            "date": "1 week ago",
+            "snippet": "A Chinese start-up has stunned the technology industry\u2014and financial markets\u2014with a cheaper, lower-tech AI assistant that matches the state of the art.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1079088846b32f200674c4ab843bf92f8adc4977e73c96ea990.jpeg"
+        },
+        {
+            "position": 10,
+            "link": "https://www.wsj.com/articles/how-deepseeks-ai-stacks-up-against-openais-model-e938c3d6",
+            "title": "How DeepSeek\u2019s AI Stacks Up Against OpenAI\u2019s Model",
+            "source": "WSJ",
+            "date": "1 week ago",
+            "snippet": "It's impossible to look at the Chinese artificial intelligence startup DeepSeek's new AI model without comparing it against OpenAI, the dominant American...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1076e5c720d80dad5d9b3a745af9a9337ef78cc258a67f4a536.jpeg"
+        },
+        {
+            "position": 11,
+            "link": "https://www.nbcnews.com/tech/tech-news/deepseek-ai-model-china-chat-gpt-tech-stocks-what-know-rcna189604",
+            "title": "What we know on DeepSeek AI: How it rivals ChatGPT, stock market impact, security concerns and more",
+            "source": "NBC News",
+            "date": "1 week ago",
+            "snippet": "Chinese tech startup DeepSeek has come roaring into public view shortly after it released a model of its artificial intelligence service that seemingly is...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1073b6ce4a9d33e2a13b07b4dbb8cba9e7e74a6180a6fc375b3.jpeg"
+        },
+        {
+            "position": 12,
+            "link": "https://www.wired.com/story/deepseek-china-model-ai/",
+            "title": "How Chinese AI Startup DeepSeek Made a Model that Rivals OpenAI",
+            "source": "WIRED",
+            "date": "2 weeks ago",
+            "snippet": "On January 20, DeepSeek, a relatively unknown AI research lab from China, released an open source model that's quickly become the talk of the town in Silicon...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107d39b7f7f3a84ddf19a3534283767eba66e180d44f5079ccc.jpeg"
+        },
+        {
+            "position": 13,
+            "link": "https://www.eenews.net/articles/game-changer-what-deepseek-ai-means-for-electricity/",
+            "title": "\u2018Game changer\u2019? What \u2018DeepSeek\u2019 AI means for electricity.",
+            "source": "E&E News by POLITICO",
+            "date": "1 week ago",
+            "snippet": "The emergence of Chinese artificial intelligence company DeepSeek is challenging conclusions about future electricity demand because of data centers,...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1077bbf8bd82a7d12b54daca78136cdf976785ef01e4c8eb239.jpeg"
+        },
+        {
+            "position": 14,
+            "link": "https://www.axios.com/2025/01/27/deepseek-ai-model-china-openai-rival",
+            "title": "Stunning breakthroughs from China's DeepSeek AI alarm U.S. rivals",
+            "source": "Axios",
+            "date": "1 week ago",
+            "snippet": "Breakthroughs from Chinese AI startup DeepSeek have stunned Silicon Valley and could bring turbulence to Wall Street, as they were accomplished at a...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1079bd695fd768f969b8c163d6b2f4b01c454a40a9a0187e071.jpeg"
+        },
+        {
+            "position": 15,
+            "link": "https://www.cnbc.com/2025/01/30/chinas-deepseek-has-some-big-ai-claims-not-all-experts-are-convinced-.html",
+            "title": "DeepSeek's AI claims have shaken the world \u2014 but not everyone's convinced",
+            "source": "CNBC",
+            "date": "1 week ago",
+            "snippet": "DeepSeek claims its R1 outperforms OpenAI's latest o1 model despite costing a fraction of the price the U.S. AI lab charges for its large language models.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107778320f202e0083e6edda9002c0b2da34d0f89eb7deb9f81.jpeg"
+        },
+        {
+            "position": 16,
+            "link": "https://www.reuters.com/technology/chinas-deepseek-sets-off-ai-market-rout-2025-01-27/",
+            "title": "DeepSeek sparks AI stock selloff; Nvidia posts record market-cap loss",
+            "source": "Reuters",
+            "date": "1 week ago",
+            "snippet": "Global investors are worried the emergence of a low-cost Chinese AI model will threaten the dominance of AI leaders.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1076a747c5788801e67815dfc8353ff1b84f389279c8121330b.jpeg"
+        },
+        {
+            "position": 17,
+            "link": "https://www.nbcnews.com/business/markets/tech-stocks-react-chinas-deepseek-sparks-us-worries-ai-race-rcna189394",
+            "title": "Tech stocks fall as China's DeepSeek sparks U.S. worries about the AI race",
+            "source": "NBC News",
+            "date": "1 week ago",
+            "snippet": "DeepSeek released an open-source artificial intelligence model in December, saying it took only two months and less than $6 million to create it.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107489b9a51c4d9ac656da2bb5e576c329ee3b03138cbef3de6.jpeg"
+        },
+        {
+            "position": 18,
+            "link": "https://mashable.com/article/deepseek-ai-hands-on",
+            "title": "DeepSeek AI might be smarter than OpenAI's smartest AI, and you can try it out now",
+            "source": "Mashable",
+            "date": "2 weeks ago",
+            "snippet": "China's AI company DeepSeek has launched its most capable LLM, DeepSeek R1, as a free web app for anyone to try out.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107d57831240c87bdda5900366cbc9693142ba95de357205c2b.png"
+        },
+        {
+            "position": 19,
+            "link": "https://www.reuters.com/technology/artificial-intelligence/microsoft-rolls-out-deepseeks-ai-model-azure-2025-01-29/",
+            "title": "Microsoft rolls out DeepSeek's AI model on Azure",
+            "source": "Reuters",
+            "date": "1 week ago",
+            "snippet": "Microsoft has made Chinese startup DeepSeek's R1 artificial intelligence model available on its Azure cloud computing platform and GitHub tool for...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10763cafdbd9a151da461e64c15327f8f7acb78eefcc64e8f60.jpeg"
+        },
+        {
+            "position": 20,
+            "link": "https://www.nbcnews.com/tech/security/deepseek-ai-comes-data-safety-concerns-chatgpt-openai-rcna189521",
+            "title": "China's DeepSeek AI is watching what you type",
+            "source": "NBC News",
+            "date": "1 week ago",
+            "snippet": "The app collects data similar to what American-based AI models collect, but Chinese laws could make it more accessible to the government. China's DeepSeek...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10727fef11d75be881010a3098973699d754df8e30242d6a128.jpeg"
+        },
+        {
+            "position": 21,
+            "link": "https://carnegieendowment.org/posts/2025/01/deepseek-ai-china-chips-explainer?lang=en",
+            "title": "Chips, China, and a Lot of Money: The Factors Driving the DeepSeek AI Turmoil",
+            "source": "Carnegie Endowment for International Peace",
+            "date": "1 week ago",
+            "snippet": "Two experts discuss the Chinese AI startup that's causing global turbulence and what they're watching for in the coming weeks.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107617e4bbbb2cba4fa4e7d64c76432658b3cb7886216a0b549.jpeg"
+        },
+        {
+            "position": 22,
+            "link": "https://www.nbcnews.com/tech/innovation/trump-china-deepseek-ai-wake-call-rcna189526",
+            "title": "Trump says China's DeepSeek AI \u2018should be a wake-up call\u2019",
+            "source": "NBC News",
+            "date": "1 week ago",
+            "snippet": "President Donald Trump said Monday that the sudden rise of Chinese AI app DeepSeek \u201cshould be a wake-up call\u201d for America's tech companies.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10798d5be4b2deba0713a954b1e2b0944db314114d72f83fc0b.jpeg"
+        },
+        {
+            "position": 23,
+            "link": "https://www.reuters.com/technology/artificial-intelligence/chinese-ai-startup-deepseek-overtakes-chatgpt-apple-app-store-2025-01-27/",
+            "title": "DeepSeek hit by cyberattack as users flock to Chinese AI startup",
+            "source": "Reuters",
+            "date": "1 week ago",
+            "snippet": "Jan 27 (Reuters) - Chinese startup DeepSeek said on Monday it will temporarily limit registrations due to a cyberattack after the company's AI assistant...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10790eaa0764b16e97148a9bd04e995d4bccd1e5b3d2dabf7af.jpeg"
+        },
+        {
+            "position": 24,
+            "link": "https://www.nytimes.com/2025/01/27/technology/deepseek-ai-chatbot-first-impressions.html",
+            "title": "First Impressions of DeepSeek\u2019s A.I. Chatbot",
+            "source": "The New York Times",
+            "date": "1 week ago",
+            "snippet": "A new chatbot created by the Chinese company DeepSeek is the talk of the A.I. world, and has sent a jolt through the U.S. stock market. Not only does it...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1073fd2e3571dffd621f1932cd5fd372c08c83f8054bebc1851.jpeg"
+        },
+        {
+            "position": 25,
+            "link": "https://www.reuters.com/technology/artificial-intelligence/alibaba-releases-ai-model-it-claims-surpasses-deepseek-v3-2025-01-29/",
+            "title": "Alibaba releases AI model it says surpasses DeepSeek",
+            "source": "Reuters",
+            "date": "1 week ago",
+            "snippet": "The unusual timing of the Qwen 2.5-Max's release points to the pressure DeepSeek's meteoric rise in the past three weeks has placed on overseas rivals and...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107eb1e45bf602ada65ff6b9860506a0e45bae40c218e101800.jpeg"
+        },
+        {
+            "position": 26,
+            "link": "https://explodingtopics.com/blog/deepseek-ai",
+            "title": "What is DeepSeek AI? (Features, OpenAI Comparison, & More)",
+            "source": "Exploding Topics",
+            "date": "6 days ago",
+            "snippet": "Founded in 2023, DeepSeek began researching and developing new AI tools - specifically open-source large language models. Fast-forward less than two years,...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107c9b322b0765c181eb02f596392e7ab7e261443ca4a594726.jpeg"
+        },
+        {
+            "position": 27,
+            "link": "https://mashable.com/article/deepseek-ai-chatgpt-rival-what-to-know",
+            "title": "DeepSeek AI: What you need to know about the ChatGPT rival",
+            "source": "Mashable",
+            "date": "1 week ago",
+            "snippet": "In a matter of days, DeepSeek has surged to the top of AI industry consciousness. Here's why it's suddenly become a major threat to OpenAI and ChatGPT.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107dd51445722735ad0cb8bca450545e0d6cc14ddae3e417be8.jpeg"
+        },
+        {
+            "position": 28,
+            "link": "https://www.bbc.com/news/articles/cd643wx888qo",
+            "title": "DeepSeek AI shakes American swagger and upends assumptions",
+            "source": "BBC",
+            "date": "1 week ago",
+            "snippet": "The speed at which the new Chinese AI app DeepSeek has shaken the technology industry, the markets and the bullish sense of American superiority in the...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10747c1d3a518edac334a49e32a46d406f1096787e97610c552.jpeg"
+        },
+        {
+            "position": 29,
+            "link": "https://virtualizationreview.com/Articles/2025/01/30/Cloud-Giants-Offer-DeepSeek-AI-Restricted-by-Many-Orgs.aspx",
+            "title": "Cloud Giants Offer DeepSeek AI, Restricted by Many Orgs, to Devs",
+            "source": "Virtualization Review",
+            "date": "1 week ago",
+            "snippet": "Microsoft, Amazon and Google have all embraced new open-source DeepSeek AI technology from a Chinese company, despite its usage being banned by many...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107c6cc75db745caa1fc5c89c095b66231804b437cf1cd79325.jpeg"
+        },
+        {
+            "position": 30,
+            "link": "https://thehackernews.com/2025/01/italy-bans-chinese-deepseek-ai-over.html",
+            "title": "Italy Bans Chinese DeepSeek AI Over Data Privacy and Ethical Concerns",
+            "source": "The Hacker News",
+            "date": "6 days ago",
+            "snippet": "Italy's data protection watchdog has blocked Chinese artificial intelligence (AI) firm DeepSeek's service within the country, citing a lack of information...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107fdecaf67519a4efc167a3ac034ba2fbdeb435effce39dfcc.jpeg"
+        },
+        {
+            "position": 31,
+            "link": "https://www.cnbc.com/2025/01/27/chinas-deepseek-ai-tops-chatgpt-app-store-what-you-should-know.html",
+            "title": "China's DeepSeek AI dethrones ChatGPT on App Store: Here's what you should know",
+            "source": "CNBC",
+            "date": "1 week ago",
+            "snippet": "The buzz around Chinese AI startup DeepSeek began picking up steam earlier this month, when the startup released R1, its model that rivals OpenAI's o1.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107cba4fb688c4fff69610b31c4a332574f043be06b75e14b32.jpeg"
+        },
+        {
+            "position": 32,
+            "link": "https://www.cbsnews.com/news/what-is-deepseek-ai-china-stock-nvidia-nvda-asml/",
+            "title": "What is DeepSeek, and why is it causing Nvidia and other stocks to slump?",
+            "source": "CBS News",
+            "date": "1 week ago",
+            "snippet": "Chinese startup DeepSeek has debuted an AI app that challenges OpenAI's ChatGPT and other U.S. rivals, sending a shock through Wall Street.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107ecfeb609e97140ed02469ac007e74dce372eaa1911223b3a.jpeg"
+        },
+        {
+            "position": 33,
+            "link": "https://foreignpolicy.com/2025/02/03/deepseek-china-ai-artificial-intelligence-united-states-tech-competition/",
+            "title": "What DeepSeek Revealed About the Future of U.S.-China Competition",
+            "source": "Foreign Policy",
+            "date": "3 days ago",
+            "snippet": "The Chinese start-up DeepSeek stunned the world and roiled stock markets last week with its release of DeepSeek-R1, an open-source generative artificial...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10714cc7665f25295aa01d9b1e82dc0d43683427987487d11c3.jpeg"
+        },
+        {
+            "position": 34,
+            "link": "https://mashable.com/article/deepseek-ai-vs-openai-chatgpt",
+            "title": "Here's what DeepSeek AI does better than OpenAI's ChatGPT",
+            "source": "Mashable",
+            "date": "1 week ago",
+            "snippet": "DeepSeek, a new open-source AI model from China, is disrupting the tech industry by outperforming Big Tech models like ChatGPT in technical tasks and...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10700d8c552d1986ec1cec87219386f0efd16cf28786ff01d13.jpeg"
+        },
+        {
+            "position": 35,
+            "link": "https://thehackernews.com/2025/01/deepseek-ai-database-exposed-over-1.html",
+            "title": "DeepSeek AI Database Exposed: Over 1 Million Log Lines, Secret Keys Leaked",
+            "source": "The Hacker News",
+            "date": "1 week ago",
+            "snippet": "Buzzy Chinese artificial intelligence (AI) startup DeepSeek, which has had a meteoric rise in popularity in recent days, left one of its databases exposed...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10773cb3b5e2d309347ec37f70b4a8db1ec9828ba1582eba814.jpeg"
+        },
+        {
+            "position": 36,
+            "link": "https://www.cbsnews.com/news/deepseek-ai-raises-national-security-concerns-trump/",
+            "title": "DeepSeek AI raises national security concerns, U.S. officials say",
+            "source": "CBS News",
+            "date": "1 week ago",
+            "snippet": "As Chinese AI application DeepSeek attracts hordes of American users, Trump administration officials, lawmakers and cybersecurity experts are expressing...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107c52f4c9e7b7127e6d94824f16ba208f860a46bd4684a4a0f.jpeg"
+        },
+        {
+            "position": 37,
+            "link": "https://www.reuters.com/technology/tech-stock-selloff-deepens-deepseek-triggers-ai-rethink-2025-01-28/",
+            "title": "US tech shares recover some losses from steep DeepSeek selloff",
+            "source": "Reuters",
+            "date": "1 week ago",
+            "snippet": "NEW YORK/BENGALURU/LONDON, Jan 28 (Reuters) - Technology shares on Tuesday regained some ground lost with AI chip leader Nvidia (NVDA.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107c4e4468f8aa14ed8bc37ed42e2ba6a89c2a63b7759f96606.jpeg"
+        },
+        {
+            "position": 38,
+            "link": "https://www.nature.com/articles/d41586-025-00275-0",
+            "title": "Scientists flock to DeepSeek: how they\u2019re using the blockbuster AI model",
+            "source": "Nature",
+            "date": "1 week ago",
+            "snippet": "Researchers are testing how well the open model can perform scientific tasks \u2014 in topics from mathematics to cognitive neuroscience.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107db233f6c686eda42ebe975136554df9c69af8f507d8b354e.jpeg"
+        },
+        {
+            "position": 39,
+            "link": "https://www.reuters.com/technology/artificial-intelligence/chinese-state-linked-accounts-hyped-deepseek-ai-launch-ahead-us-stock-rout-2025-01-31/",
+            "title": "Chinese state-linked accounts hyped DeepSeek AI launch ahead of US stock rout, Graphika says",
+            "source": "Reuters",
+            "date": "6 days ago",
+            "snippet": "NEW YORK, Jan 30 (Reuters) - Chinese state-linked social media accounts amplified narratives celebrating the launch of Chinese startup DeepSeek's AI models...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107e3b3663e8484f58606aa3f84ddaaf5d9478cd1ba3fabeb0a.jpeg"
+        },
+        {
+            "position": 40,
+            "link": "https://www.vox.com/technology/397330/deepseek-openai-chatgpt-gemini-nvidia-china",
+            "title": "DeepSeek is bad for Silicon Valley. But it might be great for you.",
+            "source": "Vox",
+            "date": "1 week ago",
+            "snippet": "The DeepSeek saga that's transforming AI, explained.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107a2e6a3c22bff768e91d2f9ccbd68ea0affc36a76cac1126e.jpeg"
+        },
+        {
+            "position": 41,
+            "link": "https://www.nbcnews.com/data-graphics/deepseek-ai-comparison-openai-chatgpt-google-gemini-meta-llama-rcna189568",
+            "title": "How DeepSeek stacks up against popular AI models, in three charts",
+            "source": "NBC News",
+            "date": "1 week ago",
+            "snippet": "The Chinese artificial intelligence model's innovative design allows it to outperform other popular models at significantly lower costs.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107842d83af34cc6f9bf32fb9cee53b16f81b82e000f4d83779.png"
+        },
+        {
+            "position": 42,
+            "link": "https://www.voanews.com/a/china-s-deepseek-ai-rattles-wall-street-but-questions-remain-/7952661.html",
+            "title": "China's DeepSeek AI rattles Wall Street, but questions remain",
+            "source": "Voice of America English News",
+            "date": "1 week ago",
+            "snippet": "Chinese researchers backed by a Hangzhou-based hedge fund recently released a new version of a large language model (LLM) called DeepSeek-R1 that rivals the...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10725dcd381b42c8374225d473caf236363810f6dcdb930ff96.jpeg"
+        },
+        {
+            "position": 43,
+            "link": "https://apnews.com/article/deepseek-ai-china-climate-fossil-fuels-00c594310b22afbf150559d08b43d3a5",
+            "title": "DeepSeek says it built its chatbot cheap. What does that mean for AI's energy needs and the climate?",
+            "source": "AP News",
+            "date": "1 week ago",
+            "snippet": "Chinese artificial intelligence startup DeepSeek stunned markets and AI experts with its claim that it built its immensely popular chatbot at a fraction of...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107050a5028cb4b9a4516dbe335fc20848fae278056903144c7.jpeg"
+        },
+        {
+            "position": 44,
+            "link": "https://www.cnn.com/2025/01/29/china/deepseek-ai-china-censorship-moderation-intl-hnk/index.html",
+            "title": "DeepSeek is giving the world a window into Chinese censorship and information control",
+            "source": "CNN",
+            "date": "1 week ago",
+            "snippet": "Previously little-known Chinese startup DeepSeek has dominated headlines and app charts in recent days thanks to its new AI chatbot, which sparked a global...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107c21132f66fe5755beea63c8d434d6844f621a18ff2e4f793.jpeg"
+        },
+        {
+            "position": 45,
+            "link": "https://mashable.com/article/deepseek-chatgpt-apple-app-store",
+            "title": "DeepSeek AI is now on top of Apple's App Store",
+            "source": "Mashable",
+            "date": "1 week ago",
+            "snippet": "Chinese AI assistant DeepSeek has risen to the top of Apple's App Store, surpassing OpenAI's ChatGPT.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10778074a37a70116a48e13f36dc06cab2a0b4e03d7d42a364d.jpeg"
+        },
+        {
+            "position": 46,
+            "link": "https://www.bbc.com/news/articles/c4gpq01rvd4o",
+            "title": "Nvidia and Microsoft shares steady after DeepSeek AI app shock",
+            "source": "BBC",
+            "date": "1 week ago",
+            "snippet": "US tech stocks were steady on Tuesday after they slumped on Monday following the sudden rise of Chinese-made artificial intelligence (AI) app DeepSeek.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10753d9fbe4392e6a97adfecab1ec93473f25bbe036a6d9e885.jpeg"
+        },
+        {
+            "position": 47,
+            "link": "https://www.investors.com/news/technology/deepseek-ai-stocks-nvidia-artificial-intelligence-capital-spending/",
+            "title": "Why China Startup DeepSeek Could Spell Trouble For Nvidia, AI Stocks",
+            "source": "Investor's Business Daily",
+            "date": "1 week ago",
+            "snippet": "China's DeepSeek startup roiled artificial intelligence-driven stocks on Monday as Wall Street mulled huge investments by technology industry giants.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107f3a019e10b443517089dbd5018a8ade09be78a933e22ad22.jpeg"
+        },
+        {
+            "position": 48,
+            "link": "https://www.channelinsider.com/news-and-trends/deepseek-ai-model-disrupts-industry/",
+            "title": "DeepSeek AI Disrupts Industry with Low-Cost, High-Performance Model",
+            "source": "Channel Insider",
+            "date": "6 days ago",
+            "snippet": "Chinese AI startup DeepSeek challenges OpenAI with a low-cost, high-performance model, raising industry, security, and regulatory concerns.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107292aa6b53dd59173a2542c25a84e9f16533b7e3155d89d96.jpeg"
+        },
+        {
+            "position": 49,
+            "link": "https://www.cfr.org/article/deepseek-making-sense-reaction-and-overreaction",
+            "title": "DeepSeek: Making Sense of the Reaction\u2014and Overreaction",
+            "source": "Council on Foreign Relations",
+            "date": "6 days ago",
+            "snippet": "CFR fellows weigh in on the global reaction to the release of Chinese AI model DeepSeek and what it means for U.S.-China competition.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10747add1f0e968cb3151b0cd3213f903bf20c6578d383951e9.jpeg"
+        },
+        {
+            "position": 50,
+            "link": "https://www.usatoday.com/story/money/2025/01/27/what-is-deepseek-ai/77969863007/",
+            "title": "What is DeepSeek? How a small Chinese startup shook up the AI sector",
+            "source": "USA Today",
+            "date": "1 week ago",
+            "snippet": "Stocks tumbled after a Chinese AI startup said its models can compete with the likes of ChatGPT and other U.S.-based models at a fraction of the cost.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107e3a1e36f2f9e7de599aa94091d86598a10684e941bda88f3.jpeg"
+        },
+        {
+            "position": 51,
+            "link": "https://the-cfo.io/2025/01/30/whats-the-big-deal-with-deepseek-ai/",
+            "title": "What's the big deal with DeepSeek AI?",
+            "source": "The CFO",
+            "date": "1 week ago",
+            "snippet": "For years, artificial intelligence has followed a familiar script: Silicon Valley builds, Wall Street reacts, and the world takes note. But DeepSeek...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10751f3b1ffcc5d5d2b9ed143ae1757c0059320b6333321cc91.jpeg"
+        },
+        {
+            "position": 52,
+            "link": "https://www.bbc.com/future/article/20250131-what-does-deepseeks-new-app-mean-for-the-future-of-ai",
+            "title": "DeepSeek: What lies under the bonnet of the new AI chatbot?",
+            "source": "BBC",
+            "date": "5 days ago",
+            "snippet": "Tumbling stock market values and wild claims have accompanied the release of a new AI chatbot by a small Chinese company. What makes it so different?",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107c55d966aefa1d6c2869b238c24121fc5151ff5ff2dcf3818.jpeg"
+        },
+        {
+            "position": 53,
+            "link": "https://www.wsj.com/opinion/deepseek-is-the-competition-america-needs-on-ai-china-futility-of-us-policy-subsidies-sanctions-13818a0a",
+            "title": "Opinion | DeepSeek AI Is the Competition America Needs",
+            "source": "WSJ",
+            "date": "1 week ago",
+            "snippet": "The success of DeepSeek, the Chinese rival to American goliaths with radically more cost-effective artificial intelligence, reveals the futility of U.S....",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107d4c3321a02a06adf5a4e64b6948735307e9790587988de15.jpeg"
+        },
+        {
+            "position": 54,
+            "link": "https://www.voanews.com/a/deepseek-vs-chatgpt-fuels-debate-over-ai-building-blocks/7958031.html",
+            "title": "DeepSeek vs. ChatGPT fuels debate over AI building blocks",
+            "source": "Voice of America English News",
+            "date": "6 days ago",
+            "snippet": "When Chinese startup DeepSeek released its AI model this month, it was hailed as a breakthrough, a sign that China's artificial intelligence companies could...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10742dbc386486b14b935ec84a02fb257ebc824040aed2b9349.jpeg"
+        },
+        {
+            "position": 55,
+            "link": "https://www.reuters.com/technology/taiwan-bans-government-departments-using-deepseek-ai-2025-02-03/",
+            "title": "Taiwan bans government departments from using DeepSeek AI",
+            "source": "Reuters",
+            "date": "3 days ago",
+            "snippet": "Taiwan on Monday banned government departments from using Chinese startup DeepSeek's artificial intelligence (AI) service as it was a security risk,...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107b743adc29f24ba5b2794b90769f3f81a96f1cd1d6e2a00df.jpeg"
+        },
+        {
+            "position": 56,
+            "link": "https://www.wired.com/story/deepseek-ai-china-privacy-data/",
+            "title": "DeepSeek\u2019s Popular AI App Is Explicitly Sending US Data to China",
+            "source": "WIRED",
+            "date": "1 week ago",
+            "snippet": "Amid ongoing fears over TikTok, Chinese generative AI platform DeepSeek says it's sending heaps of US user data straight to its home country,...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1075070f2049960f0378797fce45f4deccc7006917a81220eaa.jpeg"
+        },
+        {
+            "position": 57,
+            "link": "https://www.usatoday.com/story/tech/news/2025/01/31/deepseek-ai-trump-wakeup-call/78097990007/",
+            "title": "DeepSeek AI skyrockets in popularity; Alibaba and ChatGPT launch new AI models",
+            "source": "USA Today",
+            "date": "6 days ago",
+            "snippet": "Competition is heating up for artificial intelligence \u2014 this time with a shakeup from the Chinese startup DeepSeek, which released an AI model that the...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1071843fef2d6743d346a677cfaccc3d7a89286c71149985f03.jpeg"
+        },
+        {
+            "position": 58,
+            "link": "https://www.fool.com/investing/2025/01/27/chinas-deepseek-ai-model-shocks-world-sell-nvidia/",
+            "title": "China's DeepSeek AI Model Shocks the World: Should You Sell Your Nvidia Stock?",
+            "source": "The Motley Fool",
+            "date": "1 week ago",
+            "snippet": "Could Nvidia's (NVDA 3.08%) magical two-year run be coming to an end? Up until now, there has been insatiable demand for Nvidia's latest and greatest...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107c66d690f4deed5cd0c7016ecc5dc1735bb03bb035ed3a8b3.jpeg"
+        },
+        {
+            "position": 59,
+            "link": "https://www.reuters.com/technology/artificial-intelligence/dutch-privacy-watchdog-launch-investigation-into-chinas-deepseek-ai-2025-01-31/",
+            "title": "Dutch privacy watchdog to launch investigation into China's DeepSeek AI",
+            "source": "Reuters",
+            "date": "6 days ago",
+            "snippet": "The Netherlands' privacy watchdog AP on Friday said it will launch an investigation into Chinese artificial intelligence firm DeepSeek's data collection...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10725fd7890497d5b35508594232333f46b457642aca9c229b2.jpeg"
+        },
+        {
+            "position": 60,
+            "link": "https://nymag.com/intelligencer/article/deepseek-r1-ai-panic-impact-commentary-analysis.html",
+            "title": "7 Ways to Think About the DeepSeek AI Freak-out",
+            "source": "New York Magazine",
+            "date": "1 week ago",
+            "snippet": "Last week, a Chinese AI company called DeepSeek triggered a shock wave of excitement and panic in the artificial-intelligence community after it released...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107eab0825fd0755379416dae0947eb74db89bbd7d29db8f542.jpeg"
+        },
+        {
+            "position": 61,
+            "link": "https://www.reuters.com/world/us/trump-deepseeks-ai-should-be-wakeup-call-us-industry-2025-01-27/",
+            "title": "Trump: DeepSeek's AI should be a 'wakeup call' to US industry",
+            "source": "Reuters",
+            "date": "1 week ago",
+            "snippet": "U.S. President Donald Trump said on Monday that Chinese startup DeepSeek's technology should act as spur for American companies and said it was good that...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107466bddf27148697e2504c980eb6b16f908fc4d60dd23715b.jpeg"
+        },
+        {
+            "position": 62,
+            "link": "https://www.insurancejournal.com/news/international/2025/01/31/810314.htm",
+            "title": "DeepSeek\u2019s AI Restricted by \u2018Hundreds\u2019 of Companies in Days",
+            "source": "Insurance Journal",
+            "date": "6 days ago",
+            "snippet": "Companies and government agencies around the world are moving to restrict their employees' access to the tools recently released by the Chinese...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107dca2f279536c151ce7b8e0b908d77732ed4636c49db8bbe8.jpeg"
+        },
+        {
+            "position": 63,
+            "link": "https://cyberscoop.com/deepseek-website-malicious-attack-ai-china/",
+            "title": "DeepSeek AI claims services are facing \u2018large-scale malicious attacks\u2019",
+            "source": "CyberScoop",
+            "date": "1 week ago",
+            "snippet": "As its low-cost AI model receives accolades, the Chinese company says ongoing attacks on its services are making it harder for new users to sign up.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10747887e8aad4d29a02d624f081900df00a70fba4d01013e0e.jpeg"
+        },
+        {
+            "position": 64,
+            "link": "https://www.zdnet.com/article/apple-researchers-reveal-the-secret-sauce-behind-deepseek-ai/",
+            "title": "Apple researchers reveal the secret sauce behind DeepSeek AI",
+            "source": "ZDNET",
+            "date": "1 week ago",
+            "snippet": "The AI model that shook the world is part of a broad trend to squeeze more out of chips using what's called sparsity.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107f8f5ed80d7680e6e36b2ff5a7faa0ed7095c257db1e2478c.jpeg"
+        },
+        {
+            "position": 65,
+            "link": "https://www.axios.com/2025/01/28/deepseek-ai-national-security-trump",
+            "title": "White House \"looking into\" national security implications of DeepSeek's AI",
+            "source": "Axios",
+            "date": "1 week ago",
+            "snippet": "Trump called the Chinese startup's breakthroughs a \"wake-up call\" for the U.S. AI industry,",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107913509d3a8a48b9b57861d4b722ca5f8e635b182d4377a13.jpeg"
+        },
+        {
+            "position": 66,
+            "link": "https://gizmodo.com/what-deepseeks-ai-did-that-everyone-else-didnt-2000555731",
+            "title": "What DeepSeek\u2019s AI Did That Everyone Else\u2019s Didn\u2019t",
+            "source": "Gizmodo",
+            "date": "1 week ago",
+            "snippet": "The Chinese AI company DeepSeek exploded into the news cycle over the weekend after it replaced OpenAI's ChatGPT as the most downloaded app on the Apple App...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107bfba1fa447bb28b6f70436012a16ff01dbbf49cfcd7a4434.jpeg"
+        },
+        {
+            "position": 67,
+            "link": "https://www.nytimes.com/2025/01/27/business/deepseek-nvidia-ai-chips.html",
+            "title": "Nvidia Reels After China\u2019s A.I. Breakthrough",
+            "source": "The New York Times",
+            "date": "1 week ago",
+            "snippet": "Nvidia, which soared to the top of the stock market by selling the computer chips fueling the world's artificial intelligence boom, has been dealt a tough...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107ff73f89c6deb1ae83faf4766aadcd4f1a67b40fb8643614d.jpeg"
+        },
+        {
+            "position": 68,
+            "link": "https://www.nytimes.com/2025/02/02/world/asia/deepseek-china-ai-censorship.html",
+            "title": "DeepSeek Is a Win for China in the A.I. Race. Will the Party Stifle It?",
+            "source": "The New York Times",
+            "date": "4 days ago",
+            "snippet": "DeepSeek's success embodies China's ambitions in artificial intelligence. But it could also threaten the grip on power the nation's leaders hold.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107b274e4296518afac39bf9dc99a9b3a79471644bb4c6d79f8.jpeg"
+        },
+        {
+            "position": 69,
+            "link": "https://cyberscoop.com/deepseek-ai-security-issues-wiz-research/",
+            "title": "Wiz researchers find sensitive DeepSeek data exposed to internet",
+            "source": "CyberScoop",
+            "date": "1 week ago",
+            "snippet": "A security issue at Chinese artificial intelligence firm DeepSeek exposed over a million lines of sensitive internal data, according to Wiz.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10735fd8d6d35e809dcbb76a1f0f856b1459a799fa07b03285c.jpeg"
+        },
+        {
+            "position": 70,
+            "link": "https://www.reuters.com/technology/artificial-intelligence/american-ai-firms-try-poke-holes-disruptive-deepseek-2025-01-28/",
+            "title": "DeepSeek leaves US AI firms racing to understand its success",
+            "source": "Reuters",
+            "date": "1 week ago",
+            "snippet": "Developers at leading U.S. AI firms are praising the DeepSeek AI models that have leapt into prominence while also trying to poke holes in the notion that...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1072152726929c96dceab47cab6bb7e2e8e23439d9c6b43548e.jpeg"
+        },
+        {
+            "position": 71,
+            "link": "https://www.cnbc.com/2025/01/28/us-navy-restricts-use-of-deepseek-ai-imperative-to-avoid-using.html",
+            "title": "U.S. Navy bans use of DeepSeek due to 'security and ethical concerns'",
+            "source": "CNBC",
+            "date": "1 week ago",
+            "snippet": "The U.S. Navy issued a warning to its members to avoid using DeepSeek \"in any capacity,\" due to \"potential security and ethical concerns.\"",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107e6c0d9b33ed30950ac745b85f605cc9ed8b9fdb3d8f7a471.jpeg"
+        },
+        {
+            "position": 72,
+            "link": "https://www.cnn.com/2025/01/27/business/video/deepseek-ai-model-r1-china-digvid",
+            "title": "Matt Egan explains why China's AI model is causing US stocks to drop",
+            "source": "CNN",
+            "date": "1 week ago",
+            "snippet": "CNN's Matt Egan reports on a new Chinese AI model called R1, which was created by the company DeepSeek. The R1 model is causing US stocks to drop and is...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107b3964f20853e059557684d3d941bbd1cf78e56214fdc67e4.jpeg"
+        },
+        {
+            "position": 73,
+            "link": "https://sherwood.news/markets/deepseek-ai-is-next-years-nightmare-for-nvidia-today/",
+            "title": "DeepSeek AI is next year\u2019s nightmare for Nvidia, today",
+            "source": "Sherwood News",
+            "date": "1 week ago",
+            "snippet": "Nvidia has uniquely high growth expectations for 2026 at a time of surging skepticism on the longevity of the AI capex boom....",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107d3061522d5de2c4e220d0b56ee5dcca301ea44f76ebfb056.jpeg"
+        },
+        {
+            "position": 74,
+            "link": "https://www.cnbc.com/2025/01/24/how-chinas-new-ai-model-deepseek-is-threatening-us-dominance.html",
+            "title": "How China\u2019s new AI model DeepSeek is threatening U.S. dominance",
+            "source": "CNBC",
+            "date": "2 weeks ago",
+            "snippet": "A little-known artificial intelligence lab out of China has ignited panic throughout Silicon Valley after releasing AI models that can outperform America's...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107b90f8e1c972d492c774ed598667538b46a8d5befbfc0c94f.jpeg"
+        },
+        {
+            "position": 75,
+            "link": "https://www.barrons.com/articles/deepseek-ai-fallout-stocks-manufacturing-4f7cbc2b",
+            "title": "DeepSeek AI Fallout Spreads to Manufacturing Stocks. These Have the Most Risk.",
+            "source": "Barron's",
+            "date": "1 week ago",
+            "snippet": "Shares of Eaton, Schneider Electric, Trane, Amphenol, and others are all selling off after the Chinese AI app DeepSeek spooked investors.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10761fd6de512c917b7d908a692054cec129560ddd082f154ac.jpeg"
+        },
+        {
+            "position": 76,
+            "link": "https://www.investors.com/news/technology/amazon-stock-deepseek-meta-open-source-ai-model-rivalry/",
+            "title": "Amazon Cloud Offers DeepSeek AI Models As Meta Open Source Rivalry Grows",
+            "source": "Investor's Business Daily",
+            "date": "6 days ago",
+            "snippet": "Amazon.com (AMZN) has joined Microsoft (MSFT) in offering access to Chinese startup DeepSeek's low-cost, open-source artificial intelligence training models...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107e33e6caec27f4db2f3457fd75de0c58e40079c4fd4c3e4ea.jpeg"
+        },
+        {
+            "position": 77,
+            "link": "https://www.bloomberg.com/news/articles/2025-01-28/deepseek-s-ai-model-just-upended-the-white-hot-us-power-market",
+            "title": "DeepSeek\u2019s AI Model Just Upended the White-Hot US Power Market",
+            "source": "Bloomberg",
+            "date": "1 week ago",
+            "snippet": "It took just a single day's trading for Chinese artificial intelligence company DeepSeek to upend the US power market's yearlong hot streak premised on a...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1070ab316d0587dc0f59628c40c5e94dc709f668ffaa47adc0a.jpeg"
+        },
+        {
+            "position": 78,
+            "link": "https://www.govtech.com/blogs/lohrmann-on-cybersecurity/ai-disruption-the-deepseek-effect-on-wall-street-governments-and-beyond",
+            "title": "AI Disruption: The DeepSeek Effect on Wall Street, Governments and Beyond",
+            "source": "GovTech",
+            "date": "4 days ago",
+            "snippet": "The past week has been full of headlines regarding DeepSeek AI. So what lessons can we learn from this whirlwind of media stories and the corresponding...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1071836e7134b6bf64bd894080a4f6d6fe9ff965dd8039d6d02.jpeg"
+        },
+        {
+            "position": 79,
+            "link": "https://www.usatoday.com/story/opinion/2025/01/29/deepseek-ai-nvidia-stock-openai-google-meta/77992395007/",
+            "title": "China's DeepSeek may erase America's lead in AI. And wreck your 401(k). | Opinion",
+            "source": "USA Today",
+            "date": "1 week ago",
+            "snippet": "China's DeepSeek narrows America's advantages on artificial intelligence and threatens U.S. tech companies' business models.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10729f758530aad02a9f990144c9abbf0f4b20794db03323276.jpeg"
+        },
+        {
+            "position": 80,
+            "link": "https://www.thedrum.com/opinion/2025/01/27/how-deepseek-ai-just-changed-the-game-llms",
+            "title": "\u200bHow DeepSeek AI just changed the game for LLMs",
+            "source": "The Drum",
+            "date": "1 week ago",
+            "snippet": "The Drum's Gordon Young reacts to the news that OpenAI has a new and surprising rival to contend with in China's DeepSeek.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10769e0d1ee1584b3b39b2b938ea3afa4644a973c7ba213a3e9.jpeg"
+        },
+        {
+            "position": 81,
+            "link": "https://www.investors.com/news/technology/deepseek-ai-enterprise-software-sap-nvidia/",
+            "title": "DeepSeek AI Is 'Good News' For Enterprise Software, Says SAP CEO",
+            "source": "Investor's Business Daily",
+            "date": "1 week ago",
+            "snippet": "DeepSeek's AI technology, which roiled the tech market this week, is 'good news' for enterprise software companies like SAP, its CEO said.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107691ee4fdb8cff89fc43d3a5ce176f023d6ba88f963bbfe05.jpeg"
+        },
+        {
+            "position": 82,
+            "link": "https://www.utilitydive.com/news/ipp-stocks-reel-as-low-cost-deepseek-chills-ai-load-growth-thesis/738482/",
+            "title": "Generator, advanced nuclear stocks reel as low-cost DeepSeek chills AI load growth outlook",
+            "source": "Utility Dive",
+            "date": "1 week ago",
+            "snippet": "Among the hardest hit were companies with large existing gas and nuclear fleets, along with advanced nuclear technology providers expected to benefit from...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10702025055357e22eace385d660dc7b388cca306014b19cad3.jpeg"
+        },
+        {
+            "position": 83,
+            "link": "https://www.nytimes.com/2025/01/28/business/economy/deepseek-china-us-chip-controls.html",
+            "title": "Do China\u2019s A.I. Advances Mean U.S. Technology Controls Have Failed?",
+            "source": "The New York Times",
+            "date": "1 week ago",
+            "snippet": "DeepSeek's A.I. models show that China is making rapid gains in the field, despite American efforts to hinder it.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107ad0a8b1a0522ab51f733d436575ed794e5385ff38b460e44.jpeg"
+        },
+        {
+            "position": 84,
+            "link": "https://www.forbes.com/sites/garthfriesen/2025/01/29/deepseeks-ai-innovation-what-it-means-for-investors-and-big-tech/",
+            "title": "What DeepSeek\u2019s AI Innovation Means For Investors And Big Tech",
+            "source": "Forbes",
+            "date": "1 week ago",
+            "snippet": "Necessity drives innovation, and when resources are limited, creativity takes over. China's DeepSeek exemplifies this with its latest R1 open-source...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10713615db7911155a73f5cf305c8aad3439551bf3a3d4211d9.jpeg"
+        },
+        {
+            "position": 85,
+            "link": "https://www.zdnet.com/article/public-deepseek-ai-database-exposes-api-keys-and-other-user-data/",
+            "title": "Public DeepSeek AI database exposes API keys and other user data",
+            "source": "ZDNET",
+            "date": "6 days ago",
+            "snippet": "Beyond investor and CEO panic, DeepSeek presents a host of security concerns. Here's what the experts think you should know.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107b248d3ff5e5caf128872fb52a1a3fdcbf3d2f7a7253cc1a2.jpeg"
+        },
+        {
+            "position": 86,
+            "link": "https://www.investopedia.com/stock-market-winners-and-losers-of-deepseek-ai-upheaval-nvda-meta-now-8783765",
+            "title": "Here Are the Stock Market Winners and Losers from the DeepSeek AI Upheaval",
+            "source": "Investopedia",
+            "date": "5 days ago",
+            "snippet": "AI stocks had a volatile week as Wall Street reckoned with the implications of a sophisticated, cost-efficient AI model from Chinese start-up DeepSeek.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10793e024ad8f0d98e36398744cdaf200142f97da29bd82bba6.jpeg"
+        },
+        {
+            "position": 87,
+            "link": "https://www.investopedia.com/why-apple-stock-dodged-deepseek-ai-rout-update-8781143",
+            "title": "Why Apple Stock Dodged the DeepSeek AI Rout",
+            "source": "Investopedia",
+            "date": "1 week ago",
+            "snippet": "Apple was one of the few mega-cap tech stocks rising on Monday amid a rout that sank shares of cloud hyperscalers, AI chip makers and nuclear power...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107de48b219d7831e4c7af4088cf4fa6ca1e140e2cc79175ef3.jpeg"
+        },
+        {
+            "position": 88,
+            "link": "https://mashable.com/article/deepseek-ai-lessons",
+            "title": "DeepSeek just taught the AI industry 5 hard lessons",
+            "source": "Mashable",
+            "date": "1 week ago",
+            "snippet": "China's DeepSeek is teaching American AI companies like OpenAI, Google, Microsoft and Anthropic a series of hard-to-swallow lessons.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107500032f466c889d1c90b8b28c0240a8734c203b866b6ac8b.jpeg"
+        },
+        {
+            "position": 89,
+            "link": "https://www.investopedia.com/deepseek-ai-investing-8782152",
+            "title": "What Is DeepSeek and How Should It Change How You Invest in AI?",
+            "source": "Investopedia",
+            "date": "6 days ago",
+            "snippet": "The generative AI industry in the U.S. is getting a wake-up call, as are jittery investors who have seen their stocks rise with the AI boom in the last few...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10799d266172819c921e3845785c032a05113d66e07354877d9.jpeg"
+        },
+        {
+            "position": 90,
+            "link": "https://www.barrons.com/articles/nvidia-stock-deepseek-ai-99f63cf1",
+            "title": "As Nvidia Stock Rises, Here\u2019s Why DeepSeek AI Worries Are Overblown",
+            "source": "Barron's",
+            "date": "1 week ago",
+            "snippet": "Nvidia stock rises after the chip maker saw its market value drop by $593 billion on Monday\u2014the biggest one-day drop for any listed company on record.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107819887d5c0059b9dcd0fbe7b1745da0d7aa0b2b67309f696.jpeg"
+        },
+        {
+            "position": 91,
+            "link": "https://www.bc.edu/content/bc-web/offices/its/about/its-news/2025/deepseek-warning.html",
+            "title": "DeepSeek AI Chatbot",
+            "source": "Boston College",
+            "date": "1 week ago",
+            "snippet": "Please be aware, due to data privacy concerns, the BC University Tech Acquisition process, also known as Get Tech, has placed the AI chatbot DeepSeek on the...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1075474405c995a2157243caaf4830d9a5f4b1025198969c83b.png"
+        },
+        {
+            "position": 92,
+            "link": "https://money.usnews.com/investing/articles/what-deepseek-ai-means-for-tech-stocks",
+            "title": "What DeepSeek's Technology Could Mean for Tech Stocks | Investing",
+            "source": "US News Money",
+            "date": "1 week ago",
+            "snippet": "Chinese artificial intelligence startup DeepSeek rattled the U.S. technology sector after the company recently unveiled an AI model that is competitive with...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107f788886c8ec2b58fcf95bc31a609a86367493b6a8fe24ffa.jpeg"
+        },
+        {
+            "position": 93,
+            "link": "https://www.morningstar.com/stocks/tech-stocks-slide-chinese-ai-disruption",
+            "title": "AI Stocks Tumble as Chinese DeepSeek\u2019s AI Advances",
+            "source": "Morningstar",
+            "date": "1 week ago",
+            "snippet": "Chip stocks and other AI-related plays take a hit as DeepSeek's AI model claims a reduced need for microchips.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10790525cd4d8d7ab9cc5cca893ab2e713e11d8ad4f949d3463.jpeg"
+        },
+        {
+            "position": 94,
+            "link": "https://apnews.com/article/deepseek-ai-artificial-intelligence-be414acadbf35070d7645fe9fbd8f464",
+            "title": "Chinese tech startup DeepSeek says it was hit with \u2018large-scale malicious attacks\u2019",
+            "source": "AP News",
+            "date": "1 week ago",
+            "snippet": "Chinese tech startup DeepSeek said it was hit by a cyber attack on Monday that disrupted users' ability to register on the site.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107605e037468ae180a4f4997cad27750b9d7df88c0056f6b40.jpeg"
+        },
+        {
+            "position": 95,
+            "link": "https://www.forbes.com/sites/greatspeculations/2025/02/03/deepseeks-ai-shockwave-hits-nvidia-hard-wiping-out-billions/",
+            "title": "DeepSeek\u2019s AI Shockwave Hits Nvidia Hard, Wiping Out Billions",
+            "source": "Forbes",
+            "date": "3 days ago",
+            "snippet": "The artificial intelligence revolution is moving at lightning speed, and one of the biggest stories from last week underscores just how critical the...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10786f1ce321573ef73b2448794f17611e58c029b074c4cb3df.jpeg"
+        },
+        {
+            "position": 96,
+            "link": "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/natural-gas/020325-interactive-us-ai-datacenters-power-natural-gas-demand",
+            "title": "Interactive: DeepSeek AI bursts the bubble for US gas-fired power growth",
+            "source": "S&P Global",
+            "date": "3 days ago",
+            "snippet": "On a chilly day in late January, obscure Chinese artificial intelligence company DeepSeek AI put the US natural gas market on its heels, breaking news that...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d10793d581e3fc4e6f3524472e9d416fd5a7608c39446355b54e.jpeg"
+        },
+        {
+            "position": 97,
+            "link": "https://www.bbc.com/news/articles/czepw096wy4o",
+            "title": "DeepSeek: How China's 'AI heroes' overcame US curbs to stun Silicon Valley",
+            "source": "BBC",
+            "date": "1 week ago",
+            "snippet": "When ChatGPT stormed the world of artificial intelligence (AI), an inevitable question followed: did it spell trouble for China, America's biggest tech...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d1073b7c904de25048af75257868fd3c38b243419b0ce4dde4ee.jpeg"
+        },
+        {
+            "position": 98,
+            "link": "https://www.bbc.com/news/articles/c9w5d9new0yo",
+            "title": "DeepSeek shows AI's centre of power could shift away from US",
+            "source": "BBC",
+            "date": "1 week ago",
+            "snippet": "The app's strong debut has shaken beliefs that the US would remain the unchallenged global AI superpower, writes the BBC's Marc Cieslak.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107aec3cdd9c6e39752de58f3568cc6f6d10f7ab785eb5b2284.jpeg"
+        },
+        {
+            "position": 99,
+            "link": "https://bgr.com/tech/why-is-deepseek-ai-suddenly-so-popular/",
+            "title": "Why is DeepSeek AI suddenly so popular?",
+            "source": "Boy Genius Report",
+            "date": "1 week ago",
+            "snippet": "Chinese startup DeepSeek is the talk of the town as its affordable R1 models challenge the supremacy of ChatGPT.",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107bb590e77e373d9878009f4eff196078ca8c0b4c6194bb2f5.jpeg"
+        },
+        {
+            "position": 100,
+            "link": "https://www.fool.com/investing/2025/02/01/ibm-could-win-big-from-deepseeks-ai-disruption/",
+            "title": "IBM Could Win Big From DeepSeek's AI Disruption",
+            "source": "The Motley Fool",
+            "date": "5 days ago",
+            "snippet": "International Business Machines (IBM -3.75%) has found an artificial intelligence (AI) strategy that works. While the tech giant is an AI pioneer,...",
+            "thumbnail": "https://serpapi.com/searches/67a56058b9e759bef5d5d379/images/21f8b2ffa8c5d107d979e0fa1bd627a6b8de14048dbcd6df533a8c0ac76cc4a9.jpeg"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=Deepseek+AI&num=100&sca_esv=427ecd856dc6fca7&tbs=cdr:1,cd_min:01/01/2025,cd_max:02/03/2025&tbm=nws&ei=WGClZ9rVC5Cs5NoPo9S9-Ag&start=100&sa=N&ved=2ahUKEwja4eaKs7CLAxUQFlkFHSNqD48Q8NMDegQIAxAI",
+        "other_pages": {
+            "2": "https://www.google.com/search?q=Deepseek+AI&num=100&sca_esv=427ecd856dc6fca7&tbs=cdr:1,cd_min:01/01/2025,cd_max:02/03/2025&tbm=nws&ei=WGClZ9rVC5Cs5NoPo9S9-Ag&start=100&sa=N&ved=2ahUKEwja4eaKs7CLAxUQFlkFHSNqD48Q8tMDegQIAxAE",
+            "3": "https://www.google.com/search?q=Deepseek+AI&num=100&sca_esv=427ecd856dc6fca7&tbs=cdr:1,cd_min:01/01/2025,cd_max:02/03/2025&tbm=nws&ei=WGClZ9rVC5Cs5NoPo9S9-Ag&start=200&sa=N&ved=2ahUKEwja4eaKs7CLAxUQFlkFHSNqD48Q8tMDegQIAxAG"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Deepseek+AI&start=100&tbm=nws&tbs=cdr%3A1%2Ccd_min%3A01%2F01%2F2025%2Ccd_max%3A02%2F03%2F2025",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Deepseek+AI&start=100&tbm=nws&tbs=cdr%3A1%2Ccd_min%3A01%2F01%2F2025%2Ccd_max%3A02%2F03%2F2025",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Deepseek+AI&start=100&tbm=nws&tbs=cdr%3A1%2Ccd_min%3A01%2F01%2F2025%2Ccd_max%3A02%2F03%2F2025",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Deepseek+AI&start=200&tbm=nws&tbs=cdr%3A1%2Ccd_min%3A01%2F01%2F2025%2Ccd_max%3A02%2F03%2F2025"
+        }
+    }
+}
